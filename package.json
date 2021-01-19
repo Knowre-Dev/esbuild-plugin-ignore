@@ -1,0 +1,45 @@
+{
+  "name": "esbuild-plugin-ignore",
+  "version": "1.0.0",
+  "description": "Ignore plugin for esbuild",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint",
+    "build-example": "node example/build.js",
+    "test": "npm run build-example && NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Knowre-Dev/esbuild-plugin-ignore.git"
+  },
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "ignorePlugin"
+  ],
+  "author": "Kivol <kivoloid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knowre-Dev/esbuild-plugin-ignore/issues"
+  },
+  "homepage": "https://github.com/Knowre-Dev/esbuild-plugin-ignore#readme",
+  "devDependencies": {
+    "esbuild": "^0.8.33",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "sequelize": "^5.22.3"
+  },
+  "jest": {
+    "transform": {},
+    "modulePathIgnorePatterns": [
+      "test_src"
+    ]
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
