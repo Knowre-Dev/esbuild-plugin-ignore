@@ -1,5 +1,5 @@
 # esbuild-plugin-ignore
-Plugin to ignore some certain dependencies from bundling, for esbuild. It's behavior is much same as the `IgnorePlugin` from webpack(https://webpack.js.org/plugins/ignore-plugin/).
+Plugin to ignore some certain dependencies from bundling, for [esbuild](https://esbuild.github.io/). It's behavior is much same as the `IgnorePlugin` from webpack(https://webpack.js.org/plugins/ignore-plugin/).
 
 ## Usage
 ```
