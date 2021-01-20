@@ -22,3 +22,4 @@ Plugin to ignore some certain dependencies from bundling, for [esbuild](https://
 
 * It's the same as the Webpack 5's plugin of the same name.
 * You can refer to [example](./example) directory for usage.
+* It supports both ESM and CommonJS.
